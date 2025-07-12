@@ -24,8 +24,8 @@ This project is a full-stack e-commerce web app built using **React** and styled
 Razorpay integration has been included with the proper script and setup logic.  
 However, **live transactions or even test payments won't work until:**
 
-1. **You sign up and log in** at [Razorpay Dashboard](https://dashboard.razorpay.com/signup)
-2. **Your business details are verified** (e.g., PAN, GST, Bank info)
+1. **We sign up and log in** at [Razorpay Dashboard](https://dashboard.razorpay.com/signup)
+2. **Business details are verified** (e.g., PAN, GST, Bank info)
 3. **Test keys** (`rzp_test_Key`) are retrieved from the dashboard
 
 🔐 Until that’s done, we are going to use **Cash on Delivery (COD)** to simulate the full checkout flow.
