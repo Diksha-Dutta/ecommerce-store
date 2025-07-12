@@ -6,7 +6,7 @@ const productsRoute = require('./routes/products');
 app.use(cors());
 app.use(express.json());
 
-// Routes
+
 app.use('/api/products', productsRoute);
 
 app.get('/', (req, res) => {

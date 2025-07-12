@@ -3,8 +3,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
+import Welcome from './pages/Welcome'; 
 import { CartProvider } from './context/CartContext';
-
 
 function App() {
   return (
@@ -12,10 +12,10 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-            <Route path="/cart" element={<Cart />} />
+          <Route path="/" element={<Welcome />} /> 
+          <Route path="/shop" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
-         
         </Routes>
       </Router>
     </CartProvider>
